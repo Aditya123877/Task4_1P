@@ -1,0 +1,23 @@
+/* MenuBar.css */
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .menu-brand h3 {
+    margin: 0;
+  }
+  
+  .menu-buttons button {
+    background-color: transparent;
+    border: none;
+    margin-left: 15px;
+    color: white;
+    cursor: pointer;
+  }
+  
