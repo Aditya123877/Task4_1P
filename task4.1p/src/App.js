@@ -1,7 +1,11 @@
 // import logo from './logo.svg';
-
+import React from 'react';
 
 import './App.css';
+
+import Navbar from "./components/Navbar/Navbar"; // Make sure the path is correct
+
+import MenuBar from "./components/MenuBar/MenuBar";
 
 import Profile from "./components/Profile/Profile";
 
@@ -18,9 +22,9 @@ function App() {
 
 return (
 
-<>
-
-
+<div className="App">
+<MenuBar />
+<Navbar />
 
 <Profile/>
 
@@ -32,7 +36,7 @@ return (
 
 <Footer/>
 
-</>
+</div>
 
 );
 
