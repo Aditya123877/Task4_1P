@@ -13,7 +13,7 @@ import "./Navbar.css";
 // import SearchIcon from "@material-ui/icons/Search";
 
 export default function Navbar() {
-
+    console.log("Navbar component rendered"); // Add this line
 return (
 
 <>
